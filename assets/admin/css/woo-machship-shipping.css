@@ -1,0 +1,123 @@
+.row_loc .remove_location {
+    margin-left: 10px !important;
+}
+
+.row_loc .company-location-select {
+    width: auto !important;
+}
+
+.woo-machship-product-box-start{
+    margin-top: 15px;
+}
+
+.woo-machship-product-box-start .stuffbox {
+    padding: 23px 24px 12px;
+}
+
+.woo-machship-product-box-start .stuffbox .inside {
+    padding: 0 10px;
+}
+
+.woo-machship-product-box-start .stuffbox h2 {
+    font-family: HelveticaNeue-Light,"Helvetica Neue Light","Helvetica Neue",sans-serif;
+    font-size: 21px;
+}
+
+.woo-machship-product-box-start label{
+    vertical-align: middle;
+    font-weight: bold;
+}
+
+.woo-machship-product-box-start input{
+    vertical-align: -webkit-baseline-middle;
+}
+
+#woo_machship_import_data.inactive, .woo-machship-product-box-start.inactive {
+    cursor: pointer;
+}
+
+/* #woo_machship_import_data .dashicons-update, .woo-machship-product-box-start .dashicons-update,
+#woo_machship_clear_data .dashicons-update{
+    vertical-align: middle;
+} */
+
+.woo-machship-product-box-start .dashicons-update.spin{
+    animation: dashicons-spin 1s infinite;
+    animation-timing-function: linear;
+}
+
+.woo-machship-product-box-start .stuffbox .inside.woo-machship-product-box_btn {
+    padding-top: 20px;
+}
+
+/* #woo_machship_import_data .dashicons-update.spin, #woo_machship_clear_data .dashicons-update.spin{
+    animation: dashicons-spin 1s infinite;
+    animation-timing-function: linear;
+} */
+
+#woo-machship-reset {
+    position: absolute;
+    float: right;
+    right: 30px;
+    margin-top: -73px;
+}
+
+#woo-machship-reset .reset-cache-error {
+    display: none;
+    color: #f55;
+}
+
+
+@-webkit-keyframes dashicons-spin {
+    from {
+        -webkit-transform: rotate(0deg);
+    }
+    to {
+        -webkit-transform: rotate(359deg);
+    }
+}
+
+.woo-machship-product-box-msg {
+    border-color: #0085ba !important;
+    position: relative;
+    overflow: hidden;
+    padding: 1px 33px;
+    border-left: 4px solid #fff;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.1)
+}
+
+.remove_group_btn {
+    float: right;
+}
+
+/* #woo_machship_clear_data {
+    background: #f3f5f6;
+    color: #b52727;
+    border-color: #b52727;
+} */
+
+.error {
+    color: #b52727;
+}
+
+input.error{
+    border: 1px solid  #b52727;
+}
+
+#woocommerce_woo_machship_shipping_fusedship_webhook_status {
+    min-height: 200px;
+}
+
+select.fs_product_attr_list {
+    min-height: 200px;
+    width: auto;
+}
+
+.warehouse-idx {
+    font-size: 16px;
+    line-height: 1.8;
+    padding: 5px 12px;
+    background: rgba(125, 125, 125, 0.1);
+    margin-right: 10px;
+    border-radius: 5px;
+}

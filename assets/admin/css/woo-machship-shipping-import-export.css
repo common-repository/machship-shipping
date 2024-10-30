@@ -1,0 +1,54 @@
+.woo-machship-import-export-box-data .stuffbox {
+    padding: 23px 24px 12px;
+}
+
+.woo-machship-import-export-box-data .woo-machship-export-section {
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    padding: 20px;
+}
+
+.woo-machship-import-export-box-data .woo-machship-export-section h2 {
+    padding: 10px 0!important;
+}
+
+.woo-machship-import-export-box-data .woo-machship-export-section button {
+    margin-top: 10px;
+}
+
+.woo-machship-import-export-box-data .woo-machship-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.woo-machship-import-export-box-data .woo-machship-info span {
+    margin-bottom: 4px;
+}
+
+.woo-machship-import-export-box-data .woo-machship-info span.success {
+    color: rgb(91, 161, 91);
+}
+
+.woo-machship-import-export-box-data .woo-machship-info span.error {
+    color: #f55;
+}
+
+.woo-machship-import-export-box-data .woo-machship-processing {
+    display: none;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.woo-machship-import-export-box-data .woo-machship-processing.active {
+    display: flex;
+}
+
+.woo-machship-import-export-box-data .woo-machship-groupform {
+    display: flex;
+    align-items: center;
+}
+
+.woo-machship-import-export-box-data .woo-machship-groupform > * {
+    margin-right: 10px;
+}

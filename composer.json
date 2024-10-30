@@ -1,0 +1,7 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Woo_Machship_Shipping\\": "src/"
+        }
+    }
+}

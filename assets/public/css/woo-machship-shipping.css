@@ -1,0 +1,303 @@
+/** Common Quote form CSS **/
+.woo-machship-shipping-quote-form {
+    position: relative;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 550px;
+    border: 1px solid #2c2d33;
+    border-radius: 5px;
+    float: right;
+}
+
+#woo-machship-ajax-loader {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba( 255, 255, 255, 0.8);
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 3;
+}
+
+.woo-machship-shipping-quote-form.sqf-checkout-page {
+    width: 40%;
+    float: left;
+}
+
+.woo-machship-shipping-quote-form .woo-machship-sqf-title h2 {
+    margin: 0px;
+    padding: 15px 1.5em;
+    background: #2c2d33;
+    color: #ffffff;
+}
+.woo-machship-sqf-body{ padding: 15px 2em; }
+label.label-control{ display: block; font-weight: bold; }
+
+table.woo-machship-sqf-fields{ margin-bottom: 0; }
+table.woo-machship-sqf-fields,
+.woo-machship-sqf-fields td{ border: 0; }
+.woo-machship-sqf-fields td{ padding: 10px 0; }
+table.woo-machship-sqf-fields .sqf-opts{ display: none; }
+
+.woo-machship-sqf-fields input[type="radio"] {
+    /*visibility: hidden;*/
+    width: 25px;
+    height: 25px;
+    opacity: 0;
+    position: absolute;
+    z-index: 9999;
+
+}
+.woo-machship-sqf-fields label{ position: relative; cursor: pointer; }
+.woo-machship-sqf-fields input[type="radio"] {
+    margin-right: 2px;
+    vertical-align: middle;
+}
+.woo-machship-sqf-fields .radioitem{ margin-right: 10px; }
+.woo-machship-sqf-fields input[type="radio"] + label{
+    border: 1px solid #cccccc;
+    border-radius: 100%;
+    display: inline-block;
+    position: relative;
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    margin: 0 2px 0 0;
+}
+
+.woo-machship-sqf-fields input[type="radio"]:checked + label:after {
+    content: "\2713";
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 100%;
+    position: absolute;
+    width: 25px;
+    text-align: center;
+    line-height: 22px;
+    left: 0;
+}
+
+/** Suburb list **/
+#sqf-suburb-list {
+    list-style: none;
+    margin: 10px 0px;
+    max-width: 100%;
+    max-height: 325px;
+    overflow-x: auto;
+}
+#sqf-suburb-list li {
+    margin-bottom: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 2px;
+    padding: 2px 7px;
+    cursor: pointer;
+}
+#sqf-suburb-list li:hover {
+    background-color: #f2f2f2;
+}
+
+/** Shipping cost result **/
+#sqf-shipping-cost .shipping-type-result{ margin-top: 15px; }
+#sqf-shipping-cost .shipping-type-result h4 {
+    display: none;
+}
+/** Get Shipping status **/
+#get-quote-product-page {
+    position: relative;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 550px;
+
+    border: 1px solid #2c2d33;
+    border-radius: 5px;
+}
+#get-quote-product-page input[type="text"]{ display: block; margin-bottom: 15px; width: 100%; }
+#get-quote-product-page h2 {
+    margin: 0px;
+    padding: 15px 1.5em;
+    background: #2c2d33;
+    color: #ffffff;
+}
+
+#get-quote-product-page .quote-row {
+    padding: 15px 2em;
+}
+
+.woo-machship-shipping-quote-form.cart {
+    width: 100%;
+    float: none;
+    border: none;
+    border-top: none;
+}
+
+.woo-machship-shipping-quote-form.cart .woo-machship-sqf-body {
+    padding: 0;
+}
+
+.small-text {
+    font-size: 0.8rem;
+}
+
+#sqf-suburb-list li.active {
+    background-color: #f2f2f2;
+}
+
+.cart-machship-shipping td{
+    font-weight: 400 !important;
+}
+
+.sqf-suburb-box input.text-input {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+
+#woo_machship_single_product_form #sqf-suburb-list input {
+    display: inline-block;
+    width: auto;
+}
+
+#qq-popup-button{
+    text-decoration: none;
+}
+
+
+#qq-popup-button.qq-disabled{
+    cursor: auto;
+    opacity: 0.5;
+}
+
+.blocker{
+    z-index: 2 !important;
+}
+
+#quick-quote-modal{
+    padding: 40px 0;
+    box-shadow: none;
+    background: transparent;
+    height: auto;
+    overflow: visible;
+    width: auto;
+    display: inline-block;
+    margin: 15px auto;
+    text-align: left;
+    z-index: 999999;
+}
+
+#quick-quote-modal:focus{
+    border: none;
+    outline: none;
+}
+
+#quick-quote-modal .woo-machship-sqf-body{
+    background: #fff;
+}
+
+.modal a.close-modal{
+    top: 5px !important;
+}
+
+body.modalOn{
+    overflow: hidden;
+}
+
+#machship-modal{
+    position: fixed;
+    background: rgba(0,0,0,.3);
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    left: 0;
+    top: 0;
+    overflow: scroll;
+    display: none;
+    text-align: center;
+}
+
+#quick-quote-modal .woo-machship-shipping-quote-form{
+    float: none;
+    border: none;
+    margin: 40px auto;
+}
+
+#qq-popup-close{
+    float: right;
+    font-size: 20px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 15px;
+    height: 24px;
+    width: 24px;
+    background: #333;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1;
+}
+
+.loading_text{
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    text-align: center;
+    top: 50%;
+    padding: 8px 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    #quick-quote-modal{
+        width: 90%;
+    }
+}
+
+.sqf-confirm-no td, .no_variation td, .no_variation span, #sqf-shipping-cost .contact-us{ padding: 0; text-align: center; color: red; }
+
+#is_residential_field{
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+#is_residential_field .woocommerce-input-wrapper, #is_residential_review_field .woocommerce-input-wrapper{
+    display: flex;
+}
+
+#is_residential_field .woocommerce-input-wrapper label, #is_residential_review_field .woocommerce-input-wrapper label{
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 30px;
+    padding-left: 10px;
+}
+
+#is_residential_field .woocommerce-input-wrapper .input-radio, #is_residential_review_field .woocommerce-input-wrapper .input-radio{
+    margin-top: 4px;
+}
+
+div.uncode-wc-module div.blockUI.blockOverlay{
+    opacity: .5 !important;
+}
+
+.woo-machship-error-message {
+    color: red;
+    padding-bottom: 12px;
+}
+
+
+/* This is for quickquote style */
+
+.woo-machship-quickquote-isresidential-section {
+    display: flex;
+}
+
+.woo-machship-quickquote-isresidential-section > div {
+    width: 50%;
+}
+
+.woo-machship-quickquote-isresidential-options {
+    width: auto;
+    display: inline-block;
+}
